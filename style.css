@@ -1,0 +1,78 @@
+
+body{
+    background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+
+.mainImage{
+    width: 450px;
+    display: block;
+    margin:  auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: rgb(137, 100, 89) solid 20px ;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 40px;
+}
+
+h2{
+    font-weight: 300;
+    font-family: monospace;
+}
+
+button{
+    background: #6e4c41;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    color:rgb(228, 212, 199);
+    transition: all 200ms ease;
+    margin: 30px auto;
+    font-size: 20px;
+    padding: 14px 40px;
+    border: none;
+}
+
+button:hover {
+    color:rgb(228, 212, 199);
+    background:rgb(137, 100, 89) ;
+}
+
+hr.lineOne{
+    border: 0;
+    height: 2.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #402a23, rgba(0, 0, 0, 0));
+}
+
+hr.lineTwo{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #402a23, rgba(0, 0, 0, 0));
+}
+
+.flag{
+    width: 25px;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+}
+
+.paragraph{
+    text-align: center;
+    display: block;
+    line-height: 2;
+    padding: 20 20;
+    font-size: 20px;
+    font-family: monospace;
+    margin: 0 50 0 50;
+}
+
+.footer{
+    font-family: monospace;
+    font-size: 17px;
+}

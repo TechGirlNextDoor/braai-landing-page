@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South African Braai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class = "container">
+            <h1><em>South African Braai</em></h1>
+            <p class = "paragraph"><em>A heart warming cuisine</em></p>
+            <br>
+            <hr class = "lineOne">
+            <img class = "mainImage" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/687/original/The_ultimate_guide_to_South_Africa's_most_iconic_foods.jfif?1708078281" alt = "A South African Dish">
+            <h2>What is a braai?</h2>
+            <br>
+            <hr class = "lineTwo">
+            <br>
+            <span class = "paragraph">
+                <p>The word <strong>braai</strong> is derived from the Afrikaans language, where it simply means barbecue or grill. 
+                <br>However, the practice of cooking meat over an open flame has ancient roots in South Africa.
+                <br>Braaing is a tradition that continues to tie the nation together. 
+                <br>It is one of the few things that are not specific to one cultural or ethnic group, 
+                <br>in <em>South Africa-everyone braais.</em><img class="flag" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/695/original/za-heart-01.png?1708089703" alt="heart shaped South African flag">
+                </p>
+            </span>
+            <br>
+            <a href="https://bbqchamps.com/what-is-a-braai/" target="_blank">Read More Here</a>
+            <br>
+            <button>Get a recipe!</button>
+            <span class= "footer"><p>Coded by Zinhle Shezi a South African "braai master" wanna be. 🤭</p></span>
+        </div>
+    <script>
+        function getInfo()
+        {
+            let name = prompt("What is your name?");
+            let age = prompt("How old are you? ")
+            let email = prompt("What is your email address?");
+
+            if(age >= 18)
+            {
+                alert(`Thank you ${name}. Recipe Sent! Please check your mail box🤗`);
+            }
+            else{
+                alert(`Thank you ${name}. Recipe Sent! \n\n ⚠️Remember to ask for parential supervision when using open fires.`);
+            }
+        }
+
+        let receipeButton = document.querySelector("button");
+        receipeButton.addEventListener("click", getInfo);
+        //coded by Zinhle Shezi(Feb2024)
+    </script>
+</body>
+</html>
